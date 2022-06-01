@@ -1,0 +1,21 @@
+.lista-notas {
+    background-color: var(--fundo);
+    flex-grow: 2;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 60vw;
+    min-width: 60vw;
+    list-style-type: none;
+    padding-left: 24px;
+    padding-top: 24px;
+  }
+  .lista-notas_item {
+    margin: 12px;
+    max-width: 240px;
+    max-height: 250px;
+    display: inline;
+  }
+
+  .div--categoria{
+    font-family: Arial, Helvetica, sans-serif;
+  }
